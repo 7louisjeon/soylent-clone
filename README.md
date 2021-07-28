@@ -1,11 +1,7 @@
 # soylent-clone
 
-Hi, my name is Eunbae Jeon and I am 24 years old.
-I have been studying front end engineering for about a year part-time.
-If you want to check out my previous projects, you can do it at my github repo.
-Thank you for reading my introduction.
-
 
 Hi, I am Kwon Dan Ah, 
 I am 25 years old and my goal is to be a front-end developer and 
 I want to be a growing developer.
+I want to master React.
