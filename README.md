@@ -15,7 +15,7 @@ Thank you for reading my introduction.
 - 저는 프론트엔드 개발자가 되고 싶기 때문에 JavaScript를 마스터하고 싶습니다.
 - git flow 협업 연습하고 있습니다. 감사합니다.
 
-## 권단아님님 자기소개
+## 권단아님  자기소개
 
 Hi, I am Kwon Dan Ah, 
 I am 25 years old and my goal is to be a front-end developer and 
