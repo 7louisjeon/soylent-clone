@@ -173,4 +173,71 @@
 }
 
 
+/*-- section 3 ---*/
+
+.our-mission {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 80px;
+}
+
+.our-mission .container {
+  width: 1280px;
+  height: 470px;
+}
+
+.our-mission-title {
+  margin-bottom: 40px;
+}
+
+.our-mission-inner {
+  display: flex;
+}
+
+.our-mission-contents {
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  height: 394px;
+  margin-right: 110px;
+}
+
+.contents-items {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.our-mission-items {
+  display: flex;
+  width: 450px;
+  padding: 0 20px;
+}
+
+.our-mission-items img {
+  width: 67px;
+  height: 67px;
+  margin-right: 20px;
+}
+
+.our-mission-items h3 {
+  margin-bottom: 12px;
+}
+
+.our-mission-counting span {
+  display: block;
+  margin-bottom: 24px;
+}
+
+.our-mission-counting strong {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.our-mission-counting a:last-child {
+  padding-bottom: 2px;
+  border-bottom: 2px solid #000;
+}
+
+
 
