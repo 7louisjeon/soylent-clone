@@ -30,4 +30,81 @@
   font-display: block; 
 }
 
+/* -- section 1 --- */
+
+.why-soylent .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 656px;
+  padding-bottom: 80px;
+}
+
+.why-soylent-container {
+  display: flex;
+  flex-direction: column;
+  width: 426px;
+  background-color: #f3f3f3;
+  padding: 30px;
+}
+
+.why-soylent-container h1 {
+  margin-bottom: 15px;
+}
+
+.why-soylent-container p {
+  margin-bottom: 20px;
+}
+
+.why-soylent-image {
+  width: auto;
+  height: 572px;
+}
+
+.why-soylent-image img {
+  width: auto;
+  height: 100%;
+}
+
+
+.icon-box .contents-icons {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.icon-box .contents-icons img {
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.icon-box {
+  margin-bottom: 61px;
+}
+
+.button-box {
+  display: flex;
+  align-items: center;
+}
+
+.button-box .contents-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 228px;
+  height: 42px;
+  margin-right: 20px;
+  background-color: #fff;
+  border: 2px solid #000;
+}
+
+.button-box a:last-child {
+  padding-bottom: 2px;
+  border-bottom: 2px solid #000;
+}
+
+
 
