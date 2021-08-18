@@ -240,4 +240,159 @@
 }
 
 
+/* -- section 4 ---*/
+
+.card-review {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 554px;
+}
+
+.card-review .container {
+  width: 1280px;
+  height: 554px;
+}
+
+.card-review-title {
+  margin-bottom: 20px;
+}
+
+.card-review-carousle-contents {
+  display: flex;
+}
+
+.card-review-carousle {
+  display: flex;
+  align-items: center;
+}
+
+.carousle-item {
+  margin-right: 40px;
+}
+
+.carousle-item-image {
+  width: 290px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.carousle-item-image img {
+  width: 290px;
+  height: auto;
+}
+
+.carousle-item h3 {
+  margin-bottom: 30px;
+}
+
+.people-carousle {
+  position: relative;
+  width: 290px;
+  height: 500.84px;
+}
+
+.people-carousle .top-left {
+  position: absolute;
+  z-index: 2;
+  width: 184px;
+  height: 169px;
+  top: -61px;
+  left: -70px;
+}
+
+.people-carousle .bottom-left {
+  position: absolute;
+  z-index: 2;
+  width: 132px;
+  height: 167px;
+  bottom: 5px;
+  left: 0px;
+} 
+
+.people-carousle .bottom-right {
+  position: absolute;
+  z-index: 2;
+  width: 145px;
+  height: 134px;
+  bottom: 5px;
+  right: -40px;
+}
+
+.people-carousle-inner {
+  position: absolute;
+  background-color: #fff;
+  z-index: 3;
+  width: 290px;
+  height: 446px;
+  border: 4px solid #000;
+  padding: 30px 30px 50px;
+}
+
+.people-carousle-inner .carousle-inner-icon{
+  width: 27px;
+  height: 27px;
+  margin-bottom: 5px;
+}
+
+.people-carousle-inner h4 {
+  margin-bottom: 30px;
+}
+
+.people-carousle-list {
+  width: 222px;
+  height: 273px;
+}
+
+.people-carousle-list svg {
+  width: 95px;
+  height: 17px;
+  margin-bottom: 15px;
+}
+
+.people-carousle-list p {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.people-carousle-item {
+  display: flex;
+  align-items: center;
+}
+
+.people-carousle-item img {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.slick {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-arrow {
+  width: 23px;
+  height: 15.92px;
+}
+
+.slick-arrow.prev {
+  position: absolute;
+  bottom: 23px;
+  left: 75px;
+}
+
+.slick-arrow.next {
+  position: absolute;
+  bottom: 23px;
+  right: 73px;
+}
+
+.slick-list {
+  position: absolute;
+  bottom: 23px;
+  left: 125px;
+}
 
