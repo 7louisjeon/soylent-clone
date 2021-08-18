@@ -1,0 +1,77 @@
+body {
+  font-family: 'Apercu', sans-serif;
+}
+
+/* Font size */
+
+.fs-large {
+  font-size: 61px;
+  line-height: 1.1967213115;
+}
+
+.fs-heading {
+  font-size: 30px; 
+  line-height: 1.2333333333; 
+}  
+
+.fs-medium {
+  font-size: 21px;
+  line-height: 1.2380952381;
+}
+
+.fs-base {
+  font-size: 18px;
+  line-height: 1.2222222222;
+}
+
+.fs-small {
+  font-size: 14px;
+  line-height: 1.5625;
+}
+
+.fs-tiny {
+  font-size: 13px;
+  line-height: 1.2430769231;
+}
+
+
+/* Font weight */
+
+.fw-light {
+  font-weight: 300;
+}
+
+.fw-regular {
+  font-weight: 400;
+}
+
+.fw-medium {
+  font-weight: 500;
+}
+
+.fw-bold {
+  font-weight: 700;
+}
+
+
+/* Text Color */
+
+.text-dark {
+  color: #000;
+}
+
+.text-primary {
+  color: #212322;
+}
+
+.text-secondary{
+  color: #505050;
+}
+
+/* .text-tertiary {
+  color: #
+} */
+
+.text-white {
+  color: #fff;
+}
