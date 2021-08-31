@@ -5,18 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Soylent.com - Let us take a few things off your plate.</title>
+
+    <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap"
       rel="stylesheet"
     />
+
+    <!-- MATERIAL ICONS -->
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
+
+    <!-- FAVICON -->
     <link rel="icon" href="./favicon_io/favicon.ico" />
-    <link rel="stylesheet" href="./main.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style/main.css" />
+    <link rel="stylesheet" href="./style/typography.css" />
+    <link rel="stylesheet" href="./style/normalize.css">
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/font-face.css" />
   </head>
   <body>
     <!-- TOP NOTICE -->
@@ -110,7 +122,9 @@
             <img
               src="https://cdn.shopify.com/s/files/1/0003/5933/3902/products/01_052721_SDC_US_RTD_CreamyChocolate_Hero_1200x.png?v=1624371939"
               alt="Soylent Drink Creamy Chocolate"
+              class="chocolate-img"
             />
+            <div class="hover-img chocolate-hover-img"></div>
             <h3>Soylent Drink Creamy Chocolate</h3>
             <div class="under-product-name">
               <h3>12 Bottles</h3>
@@ -166,10 +180,12 @@
           </article>
           <article class="product-card">
             <img
-              src="https://cdn.shopify.com/s/files/1/0003/5933/3902/products/01_052721_SDC_US_RTD_CreamyChocolate_Hero_1200x.png?v=1624371939"
-              alt="Soylent Drink Creamy Chocolate"
+              src="https://cdn.shopify.com/s/files/1/0003/5933/3902/products/01_052721_SDC_US_RTD_CafeMocha_Hero_1200x.png?v=1624370741"
+              alt="Soylent Cafe Mocha"
+              class="mocha-img"
             />
-            <h3>Soylent Drink Creamy Chocolate</h3>
+            <div class="hover-img mocha-hover-img"></div>
+            <h3>Soylent Cafe Mocha</h3>
             <div class="under-product-name">
               <h3>12 Bottles</h3>
               <div class="stars">
@@ -178,7 +194,7 @@
                 ><span class="material-icons"> star </span
                 ><span class="material-icons"> star </span
                 ><span class="material-icons"> star_outline </span>
-                <p>326 Reviews</p>
+                <p>51 Reviews</p>
               </div>
             </div>
             <form class="choices">
@@ -224,10 +240,12 @@
           </article>
           <article class="product-card">
             <img
-              src="https://cdn.shopify.com/s/files/1/0003/5933/3902/products/01_052721_SDC_US_RTD_CreamyChocolate_Hero_1200x.png?v=1624371939"
-              alt="Soylent Drink Creamy Chocolate"
+              src="https://cdn.shopify.com/s/files/1/0003/5933/3902/products/01_052721_SDC_US_RTD_MintChocolate_Hero_1200x.png?v=1624371949"
+              alt="Soylent Drink Mint Chocolate"
+              class="mint-img"
             />
-            <h3>Soylent Drink Creamy Chocolate</h3>
+            <div class="hover-img mint-hover-img"></div>
+            <h3>Soylent Drink Mint Chocolate</h3>
             <div class="under-product-name">
               <h3>12 Bottles</h3>
               <div class="stars">
@@ -297,5 +315,483 @@
         </div>
       </div>
     </section>
+
+    <!-- PART 2 START -->
+
+    <section class="why-soylent">
+      <div class="container">
+        <div class="why-soylent-container">
+          <h1 class="fs-heading fw-bold text-primary">Why Soylent?</h1>
+          <p class="fs-base fw-regular text-secondary">
+            You want to be healthy, you don't have extra time and you don't want
+            to harm the planet. We get it. We create products that deliver
+            complete nutrition in convenient formats so you can get your fill
+            anywhere, anytime, all while maintaining a clear conscience!
+          </p>
+          <div class="why-soylent-contents">
+            <div class="icon-box">
+              <div class="contents-icons fs-base fw-bold text-primary">
+                <!-- 이미지 백그라운드 처리할지 고민 중 -->
+                <img
+                  src="https://cdn.shopify.com/s/files/1/0003/5933/3902/files/Plant-Based_Small_3a2f7b34-e05d-4418-8950-abad283a1e06_100x.png?v=1623952589"
+                  alt="Plant Based Protien"
+                />
+                <span>Plant Based Protien</span>
+              </div>
+              <div class="contents-icons fs-base fw-bold text-primary">
+                <!-- 이미지 백그라운드 처리할지 고민 중 -->
+                <img
+                  src="https://cdn.shopify.com/s/files/1/0003/5933/3902/files/Minerals.svg?v=745017660519802711"
+                  alt="Vitamin & Minerals"
+                />
+                <span>Vitamin & Minerals</span>
+              </div>
+              <div class="contents-icons fs-base fw-bold text-primary">
+                <!-- 이미지 백그라운드 처리할지 고민 중 -->
+                <img
+                  src="https://cdn.shopify.com/s/files/1/0003/5933/3902/files/Asset_2.svg?v=7988611461581037732"
+                  alt="Slow Burning Carbs"
+                />
+                <span>Slow Burning Carbs</span>
+              </div>
+              <div class="contents-icons fs-base fw-bold text-primary">
+                <!-- 이미지 백그라운드 처리할지 고민 중 -->
+                <img
+                  src="https://cdn.shopify.com/s/files/1/0003/5933/3902/files/Heart_Health_1_da01d74f-3148-4fb2-941c-e1fff7f5599d_100x.png?v=1625089365"
+                  alt="Healthy Fats"
+                />
+                <span>Healthy Fats</span>
+              </div>
+            </div>
+            <div class="button-box">
+              <a
+                href="https://soylent.com/pages/about-soylent"
+                class="contents-button fw-bold text-primary"
+              >
+                LEARN MORE
+              </a>
+              <a
+                href="https://soylent.com/collections/all-products"
+                class="fs-tiny fw-bold text-primary"
+              >
+                SHOP NOW
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="why-soylent-image">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0003/5933/3902/files/Why_Soylent_Module_1600x.png?v=1624983015"
+            alt="Soylent Drinks"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="three-up-contents">
+      <div class="container">
+        <h2 class="fs-heading fw-bold text-white">Perks of Subscribing</h2>
+        <div class="three-up-contents-list">
+          <div class="three-up-contents-items">
+            <!-- 이미지 백그라운드 처리할지 고민 중 -->
+            <img
+              src="https://cdn.shopify.com/s/files/1/0003/5933/3902/files/Group_146.png?v=1623987483"
+              alt="Exclusive Subscriber Savings"
+            />
+            <h3 class="fs-base fw-bold text-white">
+              Exclusive Subscriber Savings
+            </h3>
+            <p class="fs-base fw-regular text-white">
+              Subscribing will save you time and money! Save up to 17% on your
+              purchase when you subscribe with the freedom to cancel any time!
+            </p>
+          </div>
+          <div class="three-up-contents-items">
+            <!-- 이미지 백그라운드 처리할지 고민 중 -->
+            <img
+              src="https://cdn.shopify.com/s/files/1/0003/5933/3902/files/Group_171.png?v=1623987518"
+              alt="Customize Your Subscription"
+            />
+            <h3 class="fs-base fw-bold text-white">
+              Customize Your Subscription
+            </h3>
+            <p class="fs-base fw-regular text-white">
+              Set up your subscription to meet your unique needs. Curate the
+              perfect mix of shakes, bars and powders and know they will arrive
+              at your door each month!
+            </p>
+          </div>
+          <div class="three-up-contents-items">
+            <!-- 이미지 백그라운드 처리할지 고민 중 -->
+            <img
+              src="https://cdn.shopify.com/s/files/1/0003/5933/3902/files/Group_141.png?v=1623987561"
+              alt="Complete Control & Flexibility"
+            />
+            <h3 class="fs-base fw-bold text-white">
+              Complete Control & Flexibility
+            </h3>
+            <p class="fs-base fw-regular text-white">
+              You can update your delivery frequency (between 15 and 60 days),
+              change products and even pause or cancel your subscription with
+              the click of a button. You are in control.
+            </p>
+          </div>
+        </div>
+        <a
+          href="https://soylent.com/collections/all-products"
+          class="three-up-contents-button fs-small fw-bold text-primary"
+        >
+          SUBSCRIBE TODAY
+        </a>
+      </div>
+    </section>
+
+    <section class="our-mission">
+      <div class="container">
+        <h2 class="our-mission-title fs-heading fw-bold text-primary">
+          Good For You, Good for the Planet.
+        </h2>
+        <div class="our-mission-inner">
+          <div class="our-mission-contents">
+            <div class="contents-items">
+              <div class="our-mission-items">
+                <img
+                  src="https://cdn.shopify.com/s/files/1/0003/5933/3902/files/icon-1.svg?v=14487901786495830135"
+                  alt="Complete Nutrition"
+                />
+                <div class="our-mission-items-contents">
+                  <h3 class="fs-base fw-bold text-primary">
+                    Complete Nutrition
+                  </h3>
+                  <p class="fs-base fw-regular text-secondary">
+                    Soylent products help you meet your daily and weekly
+                    nutritonal goals. Our products can both stand in for
+                    complete meals as well as fill your nutrition gaps as
+                    snacks, supplements, and beyond!
+                  </p>
+                </div>
+              </div>
+              <div class="our-mission-items">
+                <img
+                  src="https://cdn.shopify.com/s/files/1/0003/5933/3902/files/icon-3.svg?v=17286142263843201633"
+                  alt="Sustainability"
+                />
+                <div class="our-mission-items-contents">
+                  <h3 class="fs-base fw-bold text-primary">Sustainability</h3>
+                  <p class="fs-base fw-regular text-secondary">
+                    Soylent supports sustainable agriculture and employs best
+                    practices to reduce our carbon footprint across our entire
+                    supply chain.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="contents-items">
+              <div class="our-mission-items">
+                <img
+                  src="https://cdn.shopify.com/s/files/1/0003/5933/3902/files/icon-2.svg?v=16588380698404734469"
+                  alt="Science-Based"
+                />
+                <div class="our-mission-items-contents">
+                  <h3 class="fs-base fw-bold text-primary">Science-Based</h3>
+                  <p class="fs-base fw-regular text-secondary">
+                    Every ingredient in our products is backed by science and
+                    carefully selected for specific and synergistic functional
+                    benefits.
+                  </p>
+                </div>
+              </div>
+              <div class="our-mission-items">
+                <img
+                  src="https://cdn.shopify.com/s/files/1/0003/5933/3902/files/icon-4.svg?v=17484930403509546712"
+                  alt="Affordability"
+                />
+                <div class="our-mission-items-contents">
+                  <h3 class="fs-base fw-bold text-primary">Affordability</h3>
+                  <p class="fs-base fw-regular text-secondary">
+                    We believe that everyone has the right to nutritious meals
+                    and are committed to having products that are affordable and
+                    accessible to all.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="our-mission-counting">
+            <span class="fs-base fw-bold text-primary">
+              Nearly 5 Million Meals Donated through #SoylentForGood!
+            </span>
+            <strong class="fs-large fw-bold text-secondary"> 4,960,076 </strong>
+            <a
+              href="https://soylent.com/pages/our-mission"
+              class="fs-tiny fw-bold text-primary"
+            >
+              LEARN MORE
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card-review">
+      <div class="container">
+        <h2 class="card-review-title fs-heading fw-bold text-primary">
+          Soylent Products Fit Your Lifestyle
+        </h2>
+        <div class="card-review-carousle-contents">
+          <div class="card-review-carousle">
+            <a
+              class="carousle-item"
+              href="https://soylent.com/collections/all-drinks"
+            >
+              <div class="carousle-item-image">
+                <img
+                  src="https://cdn.shopify.com/s/files/1/0003/5933/3902/files/Review_Module_RTD_800x.png?v=1625017871"
+                  alt="Ready to Drink Meals"
+                />
+              </div>
+              <h3 class="fs-base fw-bold text-primary">Ready to Drink Meals</h3>
+            </a>
+            <a
+              class="carousle-item"
+              href="https://soylent.com/collections/all-powder"
+            >
+              <div class="carousle-item-image">
+                <img
+                  src="https://cdn.shopify.com/s/files/1/0003/5933/3902/files/Review_Module_Powder_800x.png?v=1625017930"
+                  alt="Easy to Mix Powders"
+                />
+              </div>
+              <h3 class="fs-base fw-bold text-primary">Easy to Mix Powders</h3>
+            </a>
+            <a
+              class="carousle-item"
+              href="https://soylent.com/collections/squared"
+            >
+              <div class="carousle-item-image">
+                <img
+                  src="https://cdn.shopify.com/s/files/1/0003/5933/3902/files/Review_Module_Bars_800x.png?v=1625017994"
+                  alt="On the Go Bars"
+                />
+              </div>
+              <h3 class="fs-base fw-bold text-primary">On the Go Bars</h3>
+            </a>
+          </div>
+          <div class="people-carousle">
+            <img
+              class="top-left"
+              src="https://cdn.shopify.com/s/files/1/0003/5933/3902/files/image_46_1_300x.png?v=1623836271"
+              alt=""
+            />
+            <img
+              class="bottom-left"
+              src="https://cdn.shopify.com/s/files/1/0003/5933/3902/files/image_68_1_300x.png?v=1623836271"
+              alt=""
+            />
+            <img
+              class="bottom-right"
+              src="https://cdn.shopify.com/s/files/1/0003/5933/3902/files/image_42_1_300x.png?v=1623836271"
+              alt=""
+            />
+            <div class="people-carousle-inner">
+              <svg
+                class="carousle-inner-icon"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 30 26"
+              >
+                <path
+                  d="M15.071 25.17c.191 0 .405-.051.633-.189 4.227-2.537 7.367-5.056 9.883-7.929 1.59-1.82 2.642-3.617 3.218-5.488 1.317-4.261-.879-8.619-4.995-9.92-3.376-1.066-7.11.552-8.757 3.774-1.07-2.105-3.568-4.325-7.316-4.058-2.805.206-5.428 2.312-6.377 5.111-.781 2.298-.52 4.647.8 7.184.996 1.913 2.456 3.723 4.595 5.705 2.126 1.971 4.577 3.778 7.488 5.525.186.114.475.285.828.285zm6.66-22.546c.563 0 1.13.082 1.68.257 3.427 1.08 5.246 4.73 4.139 8.306-.521 1.696-1.489 3.337-2.958 5.02-2.414 2.762-5.451 5.198-9.549 7.657-.004-.014-.046-.041-.083-.06-2.87-1.728-5.247-3.48-7.307-5.387-2.056-1.903-3.39-3.553-4.33-5.355-1.167-2.238-1.395-4.2-.725-6.177C3.374 4.6 5.574 2.817 7.83 2.65c3.223-.248 5.339 1.77 6.148 3.567.093.207.182.414.284.657l.181.423c.103.24.34.396.605.396a.656.656 0 00.605-.396l.195-.464c.107-.253.195-.473.298-.69 1.046-2.169 3.302-3.52 5.585-3.52z"
+                  fill="#64AC39"
+                  stroke="#64AC39"
+                  stroke-width=".75"
+                ></path>
+              </svg>
+              <h4 class="fs-base fw-bold text-primary">People Love Soylent</h4>
+              <div class="people-carousle-list">
+                <svg
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 97 18"
+                >
+                  <path
+                    d="M9.524.02l2.478 5.192 5.704.752-4.173 3.96 1.048 5.657-5.057-2.744-5.056 2.744 1.047-5.656-4.172-3.961 5.704-.752L9.524.02zM29.024.02L31.5 5.212l5.704.752-4.172 3.96 1.047 5.657-5.056-2.744-5.057 2.744 1.048-5.656-4.173-3.961 5.704-.752L29.024.02zM48.522.02l2.477 5.192 5.704.752-4.172 3.96 1.047 5.657-5.056-2.744-5.057 2.744 1.048-5.656-4.173-3.961 5.704-.752L48.522.02zM68.021.02L70.5 5.212l5.704.752-4.173 3.96 1.047 5.657-5.056-2.744-5.056 2.744 1.047-5.656-4.172-3.961 5.703-.752L68.021.02zM87.52.02l2.477 5.192 5.703.752-4.172 3.96 1.047 5.657-5.056-2.744-5.056 2.744 1.047-5.656-4.172-3.961 5.703-.752L87.52.02z"
+                    fill="#221F20"
+                  ></path>
+                </svg>
+                <p class="fs-base fw-regular text-secondary">
+                  "Absolutely delicious, best meal replacement drink I've ever
+                  tasted. Tastes like melted chocolate ice cream!"
+                </p>
+                <div class="people-carousle-item">
+                  <img
+                    src="https://cdn.shopify.com/s/files/1/0003/5933/3902/files/Ellipse_18_150x.png?v=1623836416"
+                    alt="Erica"
+                  />
+                  <span class="fs-base fw-bold text-primary">Erica</span>
+                </div>
+              </div>
+              <div class="slick">
+                <div class="slick-arrow prev">
+                  <svg fill="none" viewBox="0 0 26 18">
+                    <g stroke="currentColor" stroke-width="1.5">
+                      <path d="M9.125 17.35l-8-8 8-8M25.125 9.35h-23"></path>
+                    </g>
+                  </svg>
+                </div>
+                <ul class="slick-list">
+                  <li>
+                    <span class="fs-tiny fw-bold text-dark">01/04</span>
+                  </li>
+                </ul>
+                <div class="slick-arrow next">
+                  <svg fill="none" viewBox="0 0 26 18">
+                    <path
+                      d="M16.875 1.35l8 8-8 8M.875 9.35h23"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PART 3 START -->
+
+    
+      <section class="section_store clear">
+          <article class="soylent_store"> 
+              <h2>Rather Grab a Soylent in a Store?</h2>
+              <p>
+                  Whether you’d like to try a single bottle, our retail exclusive 11oz 4packs, or <br>
+                  just a new flavor — a Soylent is waiting around the corner for you.
+              </p>
+              <ul class="clear">
+                  <li class="pa_tb"><img src="https://cdn.shopify.com/s/files/1/0003/5933/3902/files/amazon_150x.png?v=1625018210" alt="amazon" width="138px" height="42px"></li>
+                  <li class="pa pa_tb"><img src="https://cdn.shopify.com/s/files/1/0003/5933/3902/files/walmart_150x.png?v=1625018257" alt="walmart" width="138px" height="42px"></li>
+                  <li class="pa pa_tb"><img src="https://cdn.shopify.com/s/files/1/0003/5933/3902/files/target_150x.png?v=1625018239" alt="TARGET" width="138px" height="42px"></li>
+                  <li><img src="https://cdn.shopify.com/s/files/1/0003/5933/3902/files/csv_150x.png?v=1625018218" alt="CVS" width="138px" height="42px"></li>
+                  <li class="pa"><img src="https://cdn.shopify.com/s/files/1/0003/5933/3902/files/Rite_Aid_150x.png?v=1625018229" alt="RITE AID" width="138px" ></li>
+                  <li class="pa pa_b"><img src="https://cdn.shopify.com/s/files/1/0003/5933/3902/files/Walgreens_150x.png?v=1625018247" alt="Walgreens" width="138px" height="42px"></li>
+                  <li><a href="https://soylent.com/pages/store-locator">FIND SOYLENT NEAR YOU</a> <span class="hide">가까운 가게 찾기</span></li>
+              </ul>
+          </article>
+          <article class="store_right">
+              <img src="https://cdn.shopify.com/s/files/1/0003/5933/3902/files/Retailer_Line_UP_3_2160x.png?v=1624983732" alt="" class="soylent_img" width="660px" height="624"></li>
+          </article>
+      </section>
+
+      <section class="section_partner">
+          <ul>
+              <li>
+                  <P>
+                      “This is the most recent display of <br>
+                      how the seven-year-old food<br>
+                      tech start-up is shaking things <br>
+                      up.”
+                  </P>
+                  <img src="https://cdn.shopify.com/s/files/1/0003/5933/3902/files/image_51.png?v=1625018098" class="align_center" alt="BUSINESS INSIDER" width="98px" height="40px">
+              </li>
+              <li>
+                  <P>
+                      "Who are meal replacements like <br>
+                      Soylent for? Me, for one."
+                  </P>
+                  <img src="https://cdn.shopify.com/s/files/1/0003/5933/3902/files/Vox_LOGO_BW.png?v=1625018112" class="align_center" alt="Vox_LOGO_BW"  width="98px" height="40px">
+              </li>
+              <li>
+                  <P>
+                      "I've Eaten Soylent for 3 years. <br>
+                       Here's how it changed me."
+                  </P>
+                  <img src="https://cdn.shopify.com/s/files/1/0003/5933/3902/files/SFGATE_BW_LOGO.png?v=1625018120" class="align_center" alt="SFGATE_BW_LOGO" width="98px" height="55px">
+              </li>
+              <li>
+                  <P>
+                      "Best Invention - Soylent <br>
+                      Squared"
+                  </P>
+                  <img src="https://cdn.shopify.com/s/files/1/0003/5933/3902/files/TIme_Logo_BW.png?v=1625018128" class="align_center" alt="TIme_Logo_BW" width="98px" height="40px">
+              </li>
+          </ul>
+      </section>
+      <section class="section_follow">
+          <h2>Follow Us @Soylent</h2>
+          <p>Tag us on Instagram for a chance to be featured!</p>
+          <div class="follow_logo">
+              <ul class="clear">
+                  <!-- <img src="images/instagram.png" class="follow_insta" alt="인스타그램" class="insta_logo"  width="31" height="31"> -->
+                  
+                  <li>
+                      <button><img src="https://media.powerreviews.com/image/upload/t_rd_highres_thumb/d_portal-no-product-image_ttlfpi.svg/prod/socialCollection/uwitnvimxhx4vb21au63.webp" class="bg" alt="Follow" width="180px" height="180px"></button>
+                  </li>
+                  <li><button><img src="https://media.powerreviews.com/image/upload/t_rd_highres_thumb/d_portal-no-product-image_ttlfpi.svg/prod/socialCollection/gpwopnhzprj2zzrfadrn.webp" class="bg1" alt="Follow" width="180px" height="180px"></button></li>
+                  <li><button><img src="https://media.powerreviews.com/image/upload/t_rd_highres_thumb/d_portal-no-product-image_ttlfpi.svg/prod/socialCollection/bryfn5f6qmfaljgmjnqd.webp" class="bg" alt="Follow" width="180px" height="180px"></button></li>
+                  <li><button><img src="https://media.powerreviews.com/image/upload/t_rd_highres_thumb/d_portal-no-product-image_ttlfpi.svg/prod/socialCollection/urozclh10wq0mrfmwp4z.webp" class="bg" alt="Follow" width="180px" height="180px"></button></li>
+                  <li><button><img src="https://media.powerreviews.com/image/upload/t_rd_highres_thumb/d_portal-no-product-image_ttlfpi.svg/prod/socialCollection/tqlfpvpcj4k9srilqbvv.webp" class="bg" alt="Follow" width="180px" height="180px"></button></li>
+                  <li><button><img src="https://media.powerreviews.com/image/upload/t_rd_highres_thumb/d_portal-no-product-image_ttlfpi.svg/prod/socialCollection/nnzt2hf37ietcyklnuwx.webp" class="bg" alt="Follow" width="180px" height="180px"></button></li>
+                  <li class="follow_align"><button><img src="https://media.powerreviews.com/image/upload/t_rd_highres_thumb/d_portal-no-product-image_ttlfpi.svg/prod/socialCollection/ray9ko5gqbttv7f7rgji.webp" class="bg" alt="Follow" width="180px" height="180px"></button></li>
+                  <li><button><img src="https://media.powerreviews.com/image/upload/t_rd_highres_thumb/d_portal-no-product-image_ttlfpi.svg/prod/socialCollection/bn1utftgevxhbti2njqw.webp" class="bg" alt="Follow" width="180px" height="180px"></button></li>
+                  <li><button><img src="https://media.powerreviews.com/image/upload/t_rd_highres_thumb/d_portal-no-product-image_ttlfpi.svg/prod/socialCollection/lo03z2nl7z5wbr9u23zr.webp" class="bg" alt="Follow" width="180px" height="180px"></button></li>
+                  <li><button><img src="https://media.powerreviews.com/image/upload/t_rd_highres_thumb/d_portal-no-product-image_ttlfpi.svg/prod/socialCollection/uh61pip1susqn8pqumfl.webp" class="bg" alt="Follow" width="180px" height="180px"></button></li>    
+              </ul>
+          </div>
+          <div class="btn_more">
+              <button class="btn_bg">
+                  <div class="more">
+                      <img src="./images/btn_more.png" alt="더보기">
+                      <p class="show">Show more photos</p>
+                  </div>
+              </button>
+          </div>
+      </section>
+  
+  <footer>
+          <div class="footer_bg clear">
+              <div class="footer_left">
+                  <ul class="footer_text">
+                      <h2>Learn More</h2>
+                      <li><a href="https://soylent.com/blogs/news">Insights</a></li>
+                      <li><a href="https://soylent.com/blogs/press">Press</a></li>
+                      <li><a href="https://faq.soylent.com/hc/en-us">FAQ</a></li>
+                      <li><a href="https://soylent.com/products/gift-card">Gift Gards</a></li>
+                      <li class="txt_bottom"><a href="https://soylent.com/pages/soylent-discount-programs">Discount Programs</a></li>
+                  </ul>
+
+                  <ul class="footer_text">
+                      <h2>Support</h2>
+                      <li><a href="https://soylent.com/pages/contact">Contact</a></li>
+                      <li><a href="https://soylent.com/pages/store-locator">Find a Store</a></li>
+                      <li><a href="https://soylent.com/pages/careers">Careers</a></li>
+                  </ul>
+
+                  <ul class="footer_sns">
+                      <h2>Social</h2>
+                      <li><a href="https://www.instagram.com/soylent/" target="_blank"><img src="./images/instagram.png" alt="인스타그램" width="14px" height="14px"></a></li>
+                      <li><a href="https://www.tiktok.com/@soylent_nutrition?_d=secCgYIASAHKAESMgowE4LSeNcvxEFXevSUtgK652hqn5sWMM7ZWZvEkNULKcrc%2Bt944VQ7xHqNkrhwaLRuGgA%3D&checksum=39a0dc8de64c1303fea2d84d5ef10f17e0065490845f1a431f50ec2d952aa90b&language=en&sec_uid=MS4wLjABAAAABxfhtvxDwTpG9TY1eeZhQCxFwIoIFEbNRbrnD3Y2h7fJY7eEZ_GSoTwjy7nz08bZ&sec_user_id=MS4wLjABAAAAh7n4PYyKNQY17t4qfBuZNsL_3EvZQTrwoW69EhALKGcpJqWtzwnD6dZ3pJskqCNu&share_app_id=1233&share_author_id=6945933215920522246&share_link_id=9E0852A5-2BC6-4784-9F96-C8C3D951BD33&tt_from=copy&u_code=dcda174i10l07j&user_id=6828251355943535622&utm_campaign=client_share&utm_medium=ios&utm_source=copy&source=h5_m&_r=1" target="_blank"><img src="./images/tiktok.png" alt="tiktok" width="14px" height="14px"></a></li>
+                      <li><a href="https://twitter.com/soylent"  target="_blank"><img src="./images/twitter.png" alt="twitter" width="14px" height="14px"></a></li>
+                      <li><a href="https://www.reddit.com/r/soylent/"  target="_blank"><img src="./images/Reddit.png" alt="Reddit" width="14px" height="14px"></a></li>
+                      <li><a href="https://www.linkedin.com/company/soylent/"  target="_blank"><img src="./images/Linkedin.png" alt="Linkedin" width="14px" height="14px"></a></li>
+                      <li><a href="https://www.facebook.com/Soylent/"  target="_blank"><img src="./images/facebook.png" alt="facebook" width="14px" height="14px"></a></li>
+                  </ul>
+              </div>
+
+                  
+                  <ul class="footer_info clear">
+                      <li><img src="./images/soylent_logo.png" alt="logo"></li>
+                      <li class="info_txtaling"><a href="https://soylent.com/pages/terms">Terms & Conditions</a></li>
+                      <li class="info_txtaling"><a href="https://soylent.com/pages/privacy">Privacy Policy</a></li>
+                      <li class="info_txtaling"><a href="https://soylent.com/pages/ada-compliance">Accessibility Statement</a></li>
+                      <li class="info_txtaling"><a href="https://privacyportal.onetrust.com/webform/42d62055-811f-46cc-b684-258a71eb39a0/fe71117d-51b5-49ad-8960-ed96369b7283">Do Not Sell My Personal Information</a></li>
+                      <li class="info_txtaling"><a href="https://soylent.com/pages/onetrust">Manage Cookies</a></li>
+                      <li class="info_right">Copyright © 2021, <a href="https://soylent.com/">Soylent</a></li>
+                  </ul>
+          </div> 
+
+  </footer>
   </body>
 </html>
