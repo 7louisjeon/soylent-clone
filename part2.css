@@ -1,0 +1,398 @@
+@import url(/base/normalize.css);
+@import url(/base/reset.css);
+
+@font-face {
+  font-family: 'Apercu';
+  src: url("/assets/Apercu-Font/Apercu\ Light.otf");
+  font-weight: 300;
+  font-style: normal;
+  font-display: block; 
+}
+@font-face {
+  font-family: 'Apercu';
+  src: url("/assets/Apercu-Font/Apercu\ Regular.otf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: block; 
+}
+@font-face {
+  font-family: 'Apercu';
+  src: url("/assets/Apercu-Font/Apercu\ Medium.otf");
+  font-weight: 500;
+  font-style: normal;
+  font-display: block; 
+}
+@font-face {
+  font-family: 'Apercu';
+  src: url("/assets/Apercu-Font/Apercu\ Bold.otf");
+  font-weight: 700;
+  font-style: normal;
+  font-display: block; 
+}
+
+/* -- section 1 --- */
+
+.why-soylent .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 656px;
+  padding-bottom: 80px;
+}
+
+.why-soylent-container {
+  display: flex;
+  flex-direction: column;
+  width: 426px;
+  background-color: #f3f3f3;
+  padding: 30px;
+}
+
+.why-soylent-container h1 {
+  margin-bottom: 15px;
+}
+
+.why-soylent-container p {
+  margin-bottom: 20px;
+}
+
+.why-soylent-image {
+  width: auto;
+  height: 572px;
+}
+
+.why-soylent-image img {
+  width: auto;
+  height: 100%;
+}
+
+
+.icon-box .contents-icons {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.icon-box .contents-icons img {
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.icon-box {
+  margin-bottom: 61px;
+}
+
+.button-box {
+  display: flex;
+  align-items: center;
+}
+
+.button-box .contents-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 228px;
+  height: 42px;
+  margin-right: 20px;
+  background-color: #fff;
+  border: 2px solid #000;
+}
+
+.button-box a:last-child {
+  padding-bottom: 2px;
+  border-bottom: 2px solid #000;
+}
+
+
+/* -- section 2 ---*/
+
+.three-up-contents {
+  margin-bottom: 80px;
+}
+
+.three-up-contents .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 576px;
+  background-color: #221F20;
+  padding: 50px 0;
+}
+
+.three-up-contents h2 {
+  margin-bottom: 55px;
+}
+
+.three-up-contents-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1280px;
+  height: 297px;
+  margin-bottom: 30px;
+}
+
+.three-up-contents-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 426.6666666667px;
+  text-align: center;
+  padding: 30px 50px;
+  border-right: 1px solid rgb(231, 231, 231);
+}
+
+.three-up-contents-list div:last-child {
+  border: none;
+}
+
+.three-up-contents-items img {
+  width: auto;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.three-up-contents-items h3 {
+  margin-bottom: 15px;
+}
+
+.three-up-contents-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 295px;
+  height: 57px;
+  padding: 17px;
+  background-color: #fff;
+  line-height: 1.5625;
+  letter-spacing: 1.26px;
+}
+
+
+/*-- section 3 ---*/
+
+.our-mission {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 80px;
+}
+
+.our-mission .container {
+  width: 1280px;
+  height: 470px;
+}
+
+.our-mission-title {
+  margin-bottom: 40px;
+}
+
+.our-mission-inner {
+  display: flex;
+}
+
+.our-mission-contents {
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  height: 394px;
+  margin-right: 110px;
+}
+
+.contents-items {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.our-mission-items {
+  display: flex;
+  width: 450px;
+  padding: 0 20px;
+}
+
+.our-mission-items img {
+  width: 67px;
+  height: 67px;
+  margin-right: 20px;
+}
+
+.our-mission-items h3 {
+  margin-bottom: 12px;
+}
+
+.our-mission-counting span {
+  display: block;
+  margin-bottom: 24px;
+}
+
+.our-mission-counting strong {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.our-mission-counting a:last-child {
+  padding-bottom: 2px;
+  border-bottom: 2px solid #000;
+}
+
+
+/* -- section 4 ---*/
+
+.card-review {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 554px;
+}
+
+.card-review .container {
+  width: 1280px;
+  height: 554px;
+}
+
+.card-review-title {
+  margin-bottom: 20px;
+}
+
+.card-review-carousle-contents {
+  display: flex;
+}
+
+.card-review-carousle {
+  display: flex;
+  align-items: center;
+}
+
+.carousle-item {
+  margin-right: 40px;
+}
+
+.carousle-item-image {
+  width: 290px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.carousle-item-image img {
+  width: 290px;
+  height: auto;
+}
+
+.carousle-item h3 {
+  margin-bottom: 30px;
+}
+
+.people-carousle {
+  position: relative;
+  width: 290px;
+  height: 500.84px;
+}
+
+.people-carousle .top-left {
+  position: absolute;
+  z-index: 2;
+  width: 184px;
+  height: 169px;
+  top: -61px;
+  left: -70px;
+}
+
+.people-carousle .bottom-left {
+  position: absolute;
+  z-index: 2;
+  width: 132px;
+  height: 167px;
+  bottom: 5px;
+  left: 0px;
+} 
+
+.people-carousle .bottom-right {
+  position: absolute;
+  z-index: 2;
+  width: 145px;
+  height: 134px;
+  bottom: 5px;
+  right: -40px;
+}
+
+.people-carousle-inner {
+  position: absolute;
+  background-color: #fff;
+  z-index: 3;
+  width: 290px;
+  height: 446px;
+  border: 4px solid #000;
+  padding: 30px 30px 50px;
+}
+
+.people-carousle-inner .carousle-inner-icon{
+  width: 27px;
+  height: 27px;
+  margin-bottom: 5px;
+}
+
+.people-carousle-inner h4 {
+  margin-bottom: 30px;
+}
+
+.people-carousle-list {
+  width: 222px;
+  height: 273px;
+}
+
+.people-carousle-list svg {
+  width: 95px;
+  height: 17px;
+  margin-bottom: 15px;
+}
+
+.people-carousle-list p {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.people-carousle-item {
+  display: flex;
+  align-items: center;
+}
+
+.people-carousle-item img {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.slick {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-arrow {
+  width: 23px;
+  height: 15.92px;
+}
+
+.slick-arrow.prev {
+  position: absolute;
+  bottom: 23px;
+  left: 75px;
+}
+
+.slick-arrow.next {
+  position: absolute;
+  bottom: 23px;
+  right: 73px;
+}
+
+.slick-list {
+  position: absolute;
+  bottom: 23px;
+  left: 125px;
+}
+
