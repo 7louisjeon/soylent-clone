@@ -2,11 +2,10 @@
 
 ## 전은배님 자기소개
 
-Hi, my name is Eunbae Jeon and I am 24 years old.
-I have been studying front end engineering for about a year part-time.
-One skill that I want to master is React.
-If you want to check out my previous projects, you can do it at my github repo.
-Thank you for reading my introduction.
+- 안녕하세요, 프론트엔드 개발자 전은배입니다.
+- 저는 새로운 기술에 대한 관심이 많습니다.
+- TypeScript를 공부중입니다.
+- 풀스택 개발자가 되는 것이 목표입니다.
 
 ## 정재윤님 자기소개
 
@@ -17,7 +16,7 @@ Thank you for reading my introduction.
 
 ## 권단아님  자기소개
 
-Hi, I am Kwon Dan Ah, 
-I am 25 years old and my goal is to be a front-end developer and 
-I want to be a growing developer.
-I want to master React.
+- 안녕하세요, 프론트엔드 개발자 권단아입니다.
+- 저는 25살이며 저의 목표는 프론트엔드 개발자가 되는 것입니다.
+- 성장하는 개발자가 되고 싶습니다.
+- React를 마스터하고싶습니다.
