@@ -1,5 +1,7 @@
 # Soylent Clone Project
 
+<img src="https://cdn.shopify.com/s/files/1/0003/5933/3902/files/soylent_logo-01.png?height=628&pad_color=fff&v=1532787003&width=1200"/>
+
 ## 전은배님 자기소개
 
 - 안녕하세요, 프론트엔드 개발자 전은배입니다.
